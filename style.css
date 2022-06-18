@@ -1,6 +1,51 @@
 /* style.css */
 
-img {
-    height: auto;
-    width: 500px;
+html {
+    background-color: antiquewhite;
+}
+
+h1 {
+    margin-top: 0px;
+    line-height: 75%;
+}
+
+body {
+    margin: 0px;
+}
+
+.title {
+    margin-right: auto;
+    margin-left: 12px;
+    padding-top: 12px;
+    display: inline-block;
+}
+
+.about {
+    margin-right: 12px;
+    padding-top: 12px;
+    display: inline-block;
+    float: right;
+}
+
+.navbar {
+    background-color: lightgreen;
+    width: 100%;
+    margin-top: auto;
+}
+
+.recipes {
+    display: flex;
+    padding: 20px;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 2px 2px 3px black;
+    border: 12px solid lightgreen;
+    border-radius: 32px;
 }
