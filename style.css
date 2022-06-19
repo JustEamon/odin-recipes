@@ -9,6 +9,10 @@ h1 {
     line-height: 75%;
 }
 
+h2 {
+    margin: 0px;
+}
+
 body {
     margin: 0px;
 }
@@ -37,6 +41,7 @@ body {
     display: flex;
     padding: 20px;
     margin-left: auto;
+    gap: 30px;
     justify-content: center;
     align-items: center;
 }
@@ -48,4 +53,9 @@ body {
     box-shadow: 2px 2px 3px black;
     border: 12px solid lightgreen;
     border-radius: 32px;
+}
+
+.thumbBox {
+    text-align: center;
+    align-items: center;
 }
